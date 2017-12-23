@@ -4,7 +4,6 @@ from collections import namedtuple
 
 Gift = namedtuple('Gift', 'pri gift')
 
- bb
 class GiftHeap:
     def __init__(self):
         self.elems = []
